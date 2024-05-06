@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Call Integration</title>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <form id="joinForm">
+        <label for="roomId">Room ID:</label>
+        <input type="text" id="roomId" name="roomId" required><br><br>
+        
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId" required><br><br>
+        
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" name="userName" required><br><br>
+        
+        <input type="submit" value="Join Video Call">
+    </form>
+
+    <script src="https://resource.zegocloud.com/prebuilt/crypto-js.js"></script>
+    <script src="https://resource.zegocloud.com/prebuilt/prebuiltToken.js"></script>
+    <script src="https://zegocloud.github.io/zegocloud_prebuilt_webrtc/ZegoPrebuilt/index.umd.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
